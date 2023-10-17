@@ -11,9 +11,4 @@ describe("tic-tac-toe game being rendered", () => {
     const { container } = render(<App />);
     expect(container.getElementsByClassName("board-row").length).toBe(3);
   });
-
-//   test("renders the game board ", () => {
-//     const { container } = render(<App />);
-//     expect(container.getElementsByClassName("game-board").length).toBe(1);
-//   });
 });
